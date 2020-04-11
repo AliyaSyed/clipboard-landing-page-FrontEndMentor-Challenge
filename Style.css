@@ -1,0 +1,192 @@
+body{
+	font-size: 18px;
+	font-family: 'Bai Jamjuree', sans-serif;
+	text-align: center;
+
+}
+/*container*/
+.container-fluid{
+	background-image: url('images/bg-header-desktop.png');
+	background-repeat: no-repeat;
+
+}
+h1{
+	font-weight: 600;
+	color: hsl(210, 10%, 33%);
+	margin: 2px 0 5px 0;
+
+}
+#logo{
+	padding: 2%;
+}
+p{
+	display: inline-block;
+	width: 40%;
+	color: hsl(201, 11%, 66%);
+	font-weight: 400;
+	margin-top: 10px;
+}
+.btn1{
+	padding: 1%;
+	background-color: hsl(171, 66%, 44%);
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	width: 15%;
+	font-weight: 400;
+	box-shadow: 0px 2px 5px 1px hsl(201, 11%, 66%);
+	margin: 2% 1% 10% 0;
+}
+.btn2{
+	padding: 1%;
+	background-color: hsl(233, 100%, 69%);
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	width: 15%;
+	font-weight: 400;
+	box-shadow: 0px 2px 5px 1px hsl(201, 11%, 66%);
+    margin: 2% 1% 10% 0;
+}
+/*row*/
+
+.computer{
+	position: absolute;
+	z-index: 2;
+	left: -30px;
+	margin-top: 6%;
+}
+.track{
+	margin-top: 6%;
+	margin-bottom: 20%;
+	text-align: left;
+	padding-left: 8%;
+}
+.track h1{
+	font-size: 22px;
+	margin-top: 3%;
+
+	}
+.track p{
+	width: 300px;
+	margin-bottom: 7%;
+
+}
+#devices{
+	padding: 5%;
+}
+h5{
+	font-weight: 600;
+	color:  hsl(210, 10%, 33%);
+}
+.workflow{
+	padding: 8%;
+}
+.para{
+	display: inline-block;
+	width: 75%;
+}
+#companies{
+	margin: 75% 80% 70% 75%;
+}
+.footer{
+	background-color: #f5f5f5;
+	margin-right:0;
+	padding: 5% 1% 2% 0%;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	color:  hsl(201, 11%, 66%);
+	font-weight: 600;
+	margin-bottom: 8%;
+}
+#faq{
+	margin-left: -40px;
+}
+#Press{
+	margin-left: -40px;
+}
+.footer img{
+	padding: 2%;
+}
+footer{
+	margin-top: -1%;
+}
+@media only screen and (max-width: 480px){
+	.container-fluid{
+		background-image: url('images/bg-header-desktop.png');
+		background-repeat: no-repeat;
+	}
+	#logo{
+		position: relative;
+		width: 100px;
+		padding-top: 25%;
+		padding-bottom: 25%;
+	}
+	h1{
+		display: inline-block;
+		font-size: 30px;
+	}
+	p
+	{
+		width: 300px;
+		font-size: 15.5px;
+	}
+	.btn1{
+		padding: 5%;
+		width: 80%;
+	}
+	.btn2{
+		padding: 5%;
+		width: 80%;
+		margin-bottom: 50%;
+    }
+	.computer{
+		position: relative;
+		width: 300px;
+		margin: 8% 0% 10% 11%;
+	}
+	.track{
+		text-align: center;
+	}
+	#devices{
+		width: 300px;
+		margin-top: 10%;
+		margin-bottom: 25%;
+
+	}
+	.workflow{
+		padding: 10%;
+	}
+	#companies{
+		margin: 0px;
+		padding-top: 25%	
+	}
+	#clipboard{
+		display: inline-block;
+		font-size: 23px;
+		margin-top: 50%;
+	}
+	#para
+	{
+		
+	}
+	a{
+		text-align: center;
+		margin: 0px;
+		margin-top: 0px;
+		margin-bottom: 5%;
+	}
+	#faq{
+		margin: 0px;
+		margin-bottom: 7%;
+	}
+	#Press{
+		margin: 0px;
+	}
+	.footer img{
+		padding: ;
+	}
+
+}
